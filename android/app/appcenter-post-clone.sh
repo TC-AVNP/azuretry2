@@ -9,7 +9,7 @@ set -e
 set -x
 
 cd ..
-git clone -b https://github.com/TC-AVNP/azuretry2
+git clone -b master https://github.com/TC-AVNP/azuretry2
 export PATH=`pwd`/flutter/bin:$PATH
 
 flutter channel stable
