@@ -1,0 +1,59 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.vscode/
+.buildlog/
+.history
+.svn/
+.subst
+.deployments/
+*_manifest.yaml
+**/configuration/ks-*
+.base
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# GoLang
+_vendor*
+go.sum
+Gopkg.*
+pkg/**/bin
+services/**/bin
+/vendor
+
+# Kubernetes
+kubeconfig
+
+# Terraform
+.terraform
+*.backup
+*.tfstate
+
+# all npm dependencies
+**/node_modules/**
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+config.mk
+*service.pb.go
+*service.pb.gw.go
+*service.swagger.json
