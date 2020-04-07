@@ -20,7 +20,7 @@ class LRApp extends StatelessWidget {
           selector: (context, model) => model.isDarkModeOn,
           builder: (context, isDarkModeOn, _) {
             return MaterialApp(
-              title: 'LR Sales Academy',
+              title: 'LR Not Sales Academy',
               theme: AppTheme.lightTheme,
               darkTheme: AppTheme.darkTheme,
               themeMode: isDarkModeOn ? ThemeMode.dark : ThemeMode.light,
